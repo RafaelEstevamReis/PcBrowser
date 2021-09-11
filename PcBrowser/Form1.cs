@@ -6,7 +6,6 @@
 //      Created=11-09-2021, 10:40
 //      Modified=11-09-2021, 11:40
 //      Author: bob noordam
-//      Copyright (c) De Roode Roos Holding BV. All rights reserved.
 // 
 // -----------------------------------------------------------------------
 using System;
