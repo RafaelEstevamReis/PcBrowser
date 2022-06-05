@@ -50,6 +50,12 @@ namespace PcBrowser {
             if (!instances.Any()) {
                 listBoxCounters.DataSource = null;
             }
+            if(categorie.CategoryType == PerformanceCounterCategoryType.SingleInstance)
+            {
+                var counters = categorie.GetCounters();
+                listBoxCounters.DataSource = counters.ToList();
+                listBoxCounters.DisplayMember = "CounterName";
+            }
         }
 
         private void ListBoxCountersSelectedIndexChanged(object sender, EventArgs e) {

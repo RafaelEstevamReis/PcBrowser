@@ -63,6 +63,7 @@ namespace PcBrowser
             this.listBoxCategories.Location = new System.Drawing.Point(3, 35);
             this.listBoxCategories.Name = "listBoxCategories";
             this.listBoxCategories.Size = new System.Drawing.Size(260, 380);
+            this.listBoxCategories.Sorted = true;
             this.listBoxCategories.TabIndex = 0;
             this.listBoxCategories.SelectedIndexChanged += new System.EventHandler(this.ListBoxCategoriesSelectedIndexChanged);
             // 
